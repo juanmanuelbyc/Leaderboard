@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  padding-left: 30px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0 10% 0 10%;
+}
+
+.scoreBoardTitleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0 10% 0 10%;
+  gap: 15px;
+}
