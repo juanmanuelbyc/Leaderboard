@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family:'Silkscreen';
+  font-family: "Silkscreen";
 }
 
 body {
@@ -19,7 +19,7 @@ header {
   margin: 20px 0;
   background-image: url(../images/bkgn1.jpg);
   background-size: contain;
-  color:chartreuse;
+  color: chartreuse;
 }
 
 main {
@@ -33,7 +33,7 @@ main {
   flex-direction: column;
   width: 50%;
   padding: 0 3% 0 10%;
-  color:chartreuse;
+  color: chartreuse;
 }
 
 .scoreBoardTitleContainer {
@@ -46,12 +46,12 @@ main {
   background-color: darkblue;
   border-style: dashed;
   border-color: red;
+  color: lime;
 }
 
 .refreshButton:active {
-  background-color:aqua;
-  border-style: dashed;
-  border-color: red;
+  background-color: aqua;
+  color: blue;
 }
 
 .scoreBoardContainer {
@@ -72,15 +72,11 @@ tr:nth-child(odd) {
   width: 50%;
   padding: 0 15% 0 3%;
   gap: 15px;
-  color:chartreuse;
+  color: chartreuse;
 }
 
 input {
   color: blueviolet;
-}
-
-.refreshButton {
-  color:lime;
 }
 
 .submitButton {
@@ -96,6 +92,6 @@ input {
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+  -webkit-appearance: none;
+  margin: 0;
 }
