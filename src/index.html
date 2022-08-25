@@ -14,10 +14,12 @@
       <div class="leftContainer">
         <div class="scoreBoardTitleContainer">
           <h2>Recent Scores</h2>
-          <button class="RefreshButton">Refresh</button>
+          <button class="RefreshButton" id="refreshButton">Refresh</button>
         </div>
-        <div class="scoreBoardContainer">
-          <!-- scores dynamic list generated here! -->
+        <div>
+          <table class="scoreBoardContainer" id="scoreBoardContainer">
+            <!-- Scores data go here! -->
+          </table>
         </div>
       </div>
       <div class="rightContainer">
@@ -34,7 +36,7 @@
           id="playerScore"
           placeholder="Your score"
         />
-        <button class="submitButton">Submit</button>
+        <button class="submitButton" id="submitButton">Submit</button>
       </div>
     </main>
   </body>
