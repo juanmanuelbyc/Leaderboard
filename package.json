@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "json5": "^2.2.1",
+    "nodeJS": "^1.0.0",
     "toml": "^3.0.0",
     "yamljs": "^0.3.0"
   }
