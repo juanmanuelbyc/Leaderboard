@@ -1,7 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Silkscreen", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  background-image: url(../images/bkgn2.jpg);
 }
 
 header {
@@ -9,18 +16,24 @@ header {
   height: 80px;
   align-items: center;
   padding-left: 30px;
+  margin: 20px 0;
+  background-image: url(../images/bkgn1.jpg);
+  background-size: contain;
+  color: chartreuse;
 }
 
 main {
   display: flex;
   flex-direction: row;
+  background-image: url(../images/bkgn2.jpg);
 }
 
 .leftContainer {
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 0 10% 0 10%;
+  padding: 0 3% 0 10%;
+  color: chartreuse;
 }
 
 .scoreBoardTitleContainer {
@@ -29,10 +42,56 @@ main {
   justify-content: space-between;
 }
 
+.refreshButton {
+  background-color: darkblue;
+  border-style: dashed;
+  border-color: red;
+  color: lime;
+}
+
+.refreshButton:active {
+  background-color: aqua;
+  color: blue;
+}
+
+.scoreBoardContainer {
+  width: 100%;
+}
+
+tr:nth-child(even) {
+  background: rgb(49, 18, 228) !important;
+}
+
+tr:nth-child(odd) {
+  background: rgb(230, 9, 145) !important;
+}
+
 .rightContainer {
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 0 10% 0 10%;
+  padding: 0 15% 0 3%;
   gap: 15px;
+  color: chartreuse;
+}
+
+input {
+  color: blueviolet;
+}
+
+.submitButton {
+  background-color: red;
+  width: 40%;
+  align-self: flex-end;
+  color: chartreuse;
+}
+
+.submitButton:active {
+  background-color: black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }

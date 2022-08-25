@@ -19,6 +19,7 @@ const printRow = (rowData) => {
 
 const loadScores = async () => {
   const getRes = await getScores();
+  console.log(getRes);
   getRes.forEach((result) => {
     printRow(result);
   });
